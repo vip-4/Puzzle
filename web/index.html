@@ -1,35 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
+  <!-- Flutter 會將 $FLUTTER_BASE_HREF 替換為 --base-href 參數值 -->
   <base href="$FLUTTER_BASE_HREF">
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
 
-  <!-- iOS meta tags & icons -->
+  <!-- ========== SEO ========== -->
+  <title>Puzzle Games — 304 Free Brain Games &amp; Logic Puzzles</title>
+  <meta name="description" content="A suite of 304 minimalist puzzle games built with Flutter. Play Sudoku, 2048, Minesweeper, memory training, word puzzles and brain games free in your browser.">
+  <meta name="keywords" content="puzzle games, brain games, logic puzzles, sudoku, 2048, minesweeper, memory games, word puzzles, Flutter, free online games">
+  <meta name="author" content="Puzzle Games">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://vip-4.github.io/Puzzle/">
+
+  <!-- ========== Open Graph ========== -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Puzzle Games">
+  <meta property="og:title" content="Puzzle Games — 304 Free Brain Games &amp; Logic Puzzles">
+  <meta property="og:description" content="304 minimalist puzzle games: Sudoku, 2048, Minesweeper, memory and word puzzles. Free to play in your browser.">
+  <meta property="og:url" content="https://vip-4.github.io/Puzzle/">
+  <meta property="og:image" content="https://vip-4.github.io/Puzzle/icon-512.png">
+  <meta property="og:image:alt" content="Puzzle Games app icon">
+  <meta property="og:locale" content="en_US">
+
+  <!-- ========== Twitter Card ========== -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Puzzle Games — 304 Free Brain Games">
+  <meta name="twitter:description" content="Sudoku, 2048, Minesweeper, memory and word puzzles. A Flutter-powered puzzle suite.">
+  <meta name="twitter:image" content="https://vip-4.github.io/Puzzle/icon-512.png">
+
+  <!-- ========== iOS / PWA ========== -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Puzzle Games">
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <title>Puzzle Games</title>
+  <meta name="theme-color" content="#6366f1">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.json">
+
+  <!-- ========== GEO：結構化資料（便於 AI 摘要與引用） ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Puzzle Games",
+    "description": "A suite of 304 minimalist puzzle and brain-training games built with Flutter, including Sudoku, 2048, Minesweeper, memory games and word puzzles.",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Web browser, Android, iOS, Linux, macOS, Windows",
+    "url": "https://vip-4.github.io/Puzzle/",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "featureList": [
+      "304 free puzzle games",
+      "Logic, math, memory, word and spatial categories",
+      "Offline-capable minimalist design",
+      "Cross-platform Flutter build"
+    ]
+  }
+  </script>
+
   <style>
     body {
       margin: 0;
