@@ -1,0 +1,22 @@
+# Puzzle Games
+
+> Puzzle Games is an open-source suite of 304 minimalist brain-training and logic puzzle games built with Flutter. It runs in the browser and is free to play.
+
+## Key facts
+
+- 304 games across attention, logic, math, memory, spatial awareness and word categories.
+- Built with Flutter (Dart), with targets for Web, Android, iOS, Linux, macOS and Windows.
+- Includes well-known puzzles such as Sudoku, 2048, Minesweeper, Nonogram and Word Search.
+- Licensed under GNU GPL v3.0.
+- Original project: https://github.com/sidhant947/Puzzle
+
+## Web deployment
+
+- Live demo: https://vip-4.github.io/Puzzle/
+- Built with `flutter build web --release --base-href /Puzzle/` and deployed to GitHub Pages.
+
+## Documentation
+
+- [Game list and categories](https://github.com/sidhant947/Puzzle#-included-games-304-total)
+- [Contributing guide](https://github.com/sidhant947/Puzzle/blob/main/CONTRIBUTING.md)
+- [License](https://github.com/sidhant947/Puzzle/blob/main/LICENSE)
