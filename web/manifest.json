@@ -1,37 +1,37 @@
 {
-    "name": "Puzzle Games",
+    "name": "Puzzle Games — 304 Free Brain Games",
     "short_name": "Puzzle Games",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "background_color": "#f8fafc",
+    "theme_color": "#6366f1",
+    "description": "A suite of 304 minimalist puzzle games built with Flutter. Play Sudoku, 2048, Minesweeper, memory training, word puzzles and brain games free in your browser.",
+    "orientation": "any",
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "/favicon.ico",
+            "src": "favicon.ico",
             "type": "image/x-icon",
             "sizes": "16x16 32x32"
         },
         {
-            "src": "/icon-192.png",
+            "src": "icon-192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/icon-512.png",
+            "src": "icon-512.png",
             "type": "image/png",
             "sizes": "512x512"
         },
         {
-            "src": "/icon-192-maskable.png",
+            "src": "icon-192-maskable.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "maskable"
         },
         {
-            "src": "/icon-512-maskable.png",
+            "src": "icon-512-maskable.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "maskable"
